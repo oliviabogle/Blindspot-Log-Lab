@@ -1,6 +1,6 @@
-[README (1).md](https://github.com/user-attachments/files/33849256/README.1.md)
 
-# CMMC Log Lab
+
+# Blindspot Log Lab
 
 A Python training lab for **threat analysts** and **GRC analysts**, aligned to **NIST SP 800-171** and **CMMC Level 2**.
 
