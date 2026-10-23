@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cmmc-log-lab"
+version = "1.0.0"
+description = "Generate fictional CUI-environment logs with planted threats and compliance failures; investigate and grade against NIST SP 800-171 / CMMC Level 2."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+loglab = "loglab.cli:main"
+
+[tool.setuptools]
+packages = ["loglab"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
